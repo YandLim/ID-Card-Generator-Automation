@@ -1,19 +1,19 @@
-#[🪪 ID_CARD_GENERATOR_AUTOMATION](https://github.com/YandLim/ID-Card-Generator-Automation)
+# [🪪 ID_CARD_GENERATOR_AUTOMATION](https://github.com/YandLim/ID-Card-Generator-Automation)
 
 Generate polished employee ID cards effortlessly. Provide a CSV with employee details such as names, IDs, and photo paths. The script automatically overlays each photo and detail onto a blank ID card template. It even handles resizing, positioning, and wrapping long names perfectly so your ID cards always look professional.
 
-✨ The story behind the project
+##✨ The story behind the project
 
 While thinking about automating repetitive tasks, creating ID cards caught my attention. Manually editing each card in a design tool was time-consuming and prone to mistakes. I realized Python could handle this by combining image processing with data management. This project started as a way to turn a tedious task into a fast, reliable, and automated process.
 
-🧠 Features
+##🧠 Features
  - Reads employee data including name, ID, and photo from a CSV file
  - Automatically resizes and positions photos on the ID template
  - Dynamically wraps and centers text for clean layouts
  - Supports multi-line names without breaking alignment
  - Outputs high-quality PNG ID cards ready for print or digital use
 
-📂 How it works
+##📂 How it works
 1. The script reads employee data from a CSV file, including names, IDs, and photo paths.
 2. opens a blank ID card template image.
 3. For each employee:
@@ -23,7 +23,7 @@ While thinking about automating repetitive tasks, creating ID cards caught my at
     - The employee ID is added below the name, also properly aligned.
 4. The final ID card is saved as a PNG file in the /Result folder.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
  - Python
  - Pillow (PIL) for image processing
  - Pandas for CSV data handling
@@ -34,4 +34,5 @@ While thinking about automating repetitive tasks, creating ID cards caught my at
  - Separating data handling from image processing keeps the code clean and easier to maintain
  - Dynamically wrapping text improves layout flexibility
  - Planning the workflow before coding reduces bugs and layout issues
+
 
