@@ -1,0 +1,10 @@
+[project]
+name = "id-card-generator-automation"
+version = "0.1.0"
+description = "A Python automation tool that reads employee data from a CSV file and automatically generates ID cards. It resizes and places each employee photo, adds their name and ID, and saves the final cards as ready-to-use images."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=2.0.3",
+    "pillow>=10.4.0",
+]
