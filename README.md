@@ -1,7 +1,9 @@
 #[🪪 ID_CARD_GENERATOR_AUTOMATION](https://github.com/YandLim/ID-Card-Generator-Automation)
+
 Generate polished employee ID cards effortlessly. Provide a CSV with employee details such as names, IDs, and photo paths. The script automatically overlays each photo and detail onto a blank ID card template. It even handles resizing, positioning, and wrapping long names perfectly so your ID cards always look professional.
 
 ✨ The story behind the project
+
 While thinking about automating repetitive tasks, creating ID cards caught my attention. Manually editing each card in a design tool was time-consuming and prone to mistakes. I realized Python could handle this by combining image processing with data management. This project started as a way to turn a tedious task into a fast, reliable, and automated process.
 
 🧠 Features
@@ -32,3 +34,4 @@ While thinking about automating repetitive tasks, creating ID cards caught my at
  - Separating data handling from image processing keeps the code clean and easier to maintain
  - Dynamically wrapping text improves layout flexibility
  - Planning the workflow before coding reduces bugs and layout issues
+
