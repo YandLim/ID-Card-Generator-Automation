@@ -10,7 +10,7 @@ Blank ID card
 
 <img src="data/Blank_ID.png" alt="Blank ID Card" width="200">
 
-ID card result example
+Example of generated ID card
 
 <img src="Result/ID_Card_0.png" alt="ID Card Output" width="200">
 
@@ -25,7 +25,7 @@ More Example [😁 Here](Result/)
 
 ## ⚙️How it works
 1. The script reads employee data from a CSV file, including names, IDs, and photo paths.
-2. opens a blank ID card template image.
+2. Opens a blank ID card template image.
 3. For each employee:
     - The employee photo is opened and resized to fit perfectly into the designated area on the ID card.
     - The resized photo is pasted onto the blank template.

@@ -47,8 +47,12 @@ df = pd.read_csv(CSV_FILE)
 with Image.open(BLANK_ID) as blank:
     # Looping throught every row in the data
     for i, row in df.iterrows():
-        # Opening the employe photo
-        photo = Image.open(row["Photo"])
+        # Continue if the Image is error or Inaccessible 
+        try:
+            # Opening the employe photo
+            photo = Image.open(row["Photo"])
+        except:
+            continue
 
         # Resize the photo to fit into the space and paste into the blank ID card
         resize_photo = resize_calculation(photo.copy(), (238, 354), (785, 964))
