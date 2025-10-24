@@ -5,7 +5,7 @@ Generate polished employee ID cards effortlessly. Provide a CSV with employee de
 ## ✨ The story behind the project
 While thinking about automating repetitive tasks, creating ID cards caught my attention. Manually editing each card in a design tool was time-consuming and prone to mistakes. I realized Python could handle this by combining image processing with data management. This project started as a way to turn a tedious task into a fast, reliable, and automated process.
 
-## Demo
+## 🤩 Demo
 Blank ID card
 
 <img src="data/Blank_ID.png" alt="Blank ID Card" width="200">
@@ -44,6 +44,7 @@ More Example [😁 Here](Result/)
  - Separating data handling from image processing keeps the code clean and easier to maintain
  - Dynamically wrapping text improves layout flexibility
  - Planning the workflow before coding reduces bugs and layout issues
+
 
 
 
